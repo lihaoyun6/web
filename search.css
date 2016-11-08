@@ -1,29 +1,6 @@
 
  
  /* http://www.qinggl.com/res/css/basic.css */ 
-body,html,* {
-	padding: 0;
-	margin: 0;
-}
-
-body {
-	
-}
-
-img {
-	border: none;
-}
-
-li,ul {
-	list-style-type: none;
-}
-
-.clear {
-	clear: both;
-	width: 100%;
-	float: none;
-	height: 0px;
-}
 
 .submitbox {
 	color: #666666;
