@@ -1,52 +1,6 @@
 
 @charset "utf-8"
  /* http://www.qinggl.com/res/css/basic.css */ 
-body,html,* {
-	padding: 0;
-	margin: 0;
-}
-
-body {
-	
-}
-
-img {
-	border: none;
-}
-
-li,ul {
-	list-style-type: none;
-}
-
-.clear {
-	clear: both;
-	width: 100%;
-	float: none;
-	height: 0px;
-}
-/*通用代码结束*/
-/*header  nav */
-
-/* 全局导航 */
-
-.iframemenu{ position:absolute; left:5%; top:70px;border: 2px solid #333;display:none; width:90%; height:500px;}
- #quanju{ position:absolute; top:50px; right: 5%;  background-image:url(http://www.qinggl.com/res/css/quanjumenu.png); background-repeat:no-repeat; display:block; width:100px; height:20px; }
-.quanjushow{background-position:0 -20px;   }
-
-/* footer */
-
-
-.submitbox {
-	color: #666666;
-	width: 100%;
-	margin-top: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #f9f9f9;
-	overflow: visible;
-	position: relative;
-}
-
 .submit {
 	float: left;
 	font-weight: bolder;
