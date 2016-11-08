@@ -24,15 +24,6 @@ li,ul {
 	float: none;
 	height: 0px;
 }
-/*通用代码结束*/
-/*header  nav */
-
-/* 全局导航 */
-
-.iframemenu{ position:absolute; left:5%; top:70px;border: 2px solid #333;display:none; width:90%; height:500px;}
- #quanju{ position:absolute; top:50px; right: 5%;  background-image:url(http://www.qinggl.com/res/css/quanjumenu.png); background-repeat:no-repeat; display:block; width:100px; height:20px; }
-.quanjushow{background-position:0 -20px;   }
-
 
 .submitbox {
 	color: #666666;
@@ -75,44 +66,3 @@ font-family: helvetica, sans-serif;
 		font-weight: bold;
 		text-align: center;
 	}
-
-#triangle-up {
-	position: absolute;
-	width: 0;
-	height: 0;
-	right: 22%;
-	top: -20px;
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-bottom: 20px solid #f9f9f9;
-	z-index: 100;
-}
-
-.init {
-	background-color: #bbb;
-	height: 50px;
-	width: 29%;
-	font-size: 24px;
-	border: none;
-	margin-left: 0;
-	margin-right: 0;
-	float: right;
-	margin: 0;
-}
-
-.form {
-	margin-top: 20px;
-	text-align: center;
-}
-
-.clear {
-	clear: both;
-	height: 0;
-}
-
-@media screen and (max-width: 600px) {
-	.submit {
-		font-weight: normal;
-		font-size: 14px;
-	}
-}
