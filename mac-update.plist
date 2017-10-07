@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>updates</key>
+	<array>
+		<dict>
+			<key>OS</key>
+			<string>17A365</string>
+			<key>downloadURL</key>
+			<string>https://images.nvidia.com/mac/pkg/378/WebDriver-378.10.10.10.15.114.pkg</string>
+			<key>version</key>
+			<string>378.10.10.10.15.117</string>
+		</dict>
+	</array>
+</dict>
+</plist>
