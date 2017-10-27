@@ -3,7 +3,7 @@ bver=$(sw_vers -buildVersion)
 pver=$(sw_vers -productVersion)
 pname=$(sw_vers -productName)
 index=0
-curl -# "https://gfe.nvidia.com/mac-update" > /tmp/mac-update.plist
+curl -s "https://gfe.nvidia.com/mac-update" > /tmp/mac-update.plist
 	if [[ $(test -f /tmp/mac-update.plist && echo 1) ]]
 	then
 		while [[ $(/usr/libexec/PlistBuddy -c "Print :updates:"$index":OS" /tmp/mac-update.plist 2>/dev/null && echo 1) ]];
@@ -42,7 +42,7 @@ if [[ "$download_version" == "" ]] || [[ "$download_url" == "" ]]
 		exit
 		fi
 fi
-curl -# -k -o /tmp/WebDriver-"$download_version".pkg $download_url
+curl -s -k -o /tmp/WebDriver-"$download_version".pkg $download_url
 pkgutil --expand /tmp/WebDriver-"$download_version".pkg /tmp/expanded.pkg
 sed -i '' -E "s/if \(\!validateHardware\(\)\) return false;/\/\/if \(\!validateHardware\(\)\) return false;/g" /tmp/expanded.pkg/Distribution
 sed -i '' -E "s/if \(\!validateSoftware\(\)\) return false;/\/\/if \(\!validateSoftware\(\)\) return false;/g" /tmp/expanded.pkg/Distribution
